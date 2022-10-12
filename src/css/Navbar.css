@@ -1,7 +1,10 @@
 nav{
-    padding: 2rem;
-    /* background-color: whitesmoke; */
-    background-color:rgba(255,255,255,.4);
+    margin: 1rem 35rem;
+    padding: 0.8px;
+    background-color: #FEFEFF;
+    box-shadow: 5px 8px 8px 4px lightgrey;
+    border-radius: 5px;
+    /* background-color:rgba(255,255,255,.4); */
     /* opacity: 0.4; */
 }
 

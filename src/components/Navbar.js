@@ -10,9 +10,9 @@ const Navbar = (props) => {
   }
   return (
     <nav>
-      <h1 className='title'>Amazing scientists</h1>
-      <button onClick={handleClick}>See more</button>
-       {isOpen && <MenuList />}
+      <h2 className='title'>Amazing scientists</h2>
+      {/* <button onClick={handleClick}>See more</button>
+       {isOpen && <MenuList />} */}
     </nav>
   );
 };

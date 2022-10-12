@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -47,4 +47,35 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.content{
+  margin-left: 2rem;
 }
+
+.card{
+  margin-left: 1rem!important;
+}
+
+.controls {
+  padding: 1rem;
+  text-align: center;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+  text-align: 50%;
+}
+
+.button-left{
+  margin: 0 1rem;
+}
+
+.image{
+  border-radius: 5px;
+  box-shadow: 0 10px 10px -5px;
+  /* -moz-box-shadow: 10px 10px 5px ;
+      -webkit-box-shadow: 10px 10px 5px ;
+      -khtml-box-shadow: 10px 10px 5px; */
+}
+

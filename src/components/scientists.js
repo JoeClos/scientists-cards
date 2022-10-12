@@ -2,22 +2,22 @@ export const scientistsData = [
   {
     id: 1,
     name: "Albert Einstein",
-    src: "https://upload.wikimedia.org/wikipedia/commons/d/d3/Albert_Einstein_Head.jpg",
-    link: "https://fi.wikipedia.org/wiki/Albert_Einstein",
+    src: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg  ",
+    link: "https://en.wikipedia.org/wiki/Albert_Einstein",
     subject: "Physics",
   },
   {
     id: 2,
     name: "Marie Curie",
-    src: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Mariecurie.jpg",
-    link: "https://fi.wikipedia.org/wiki/Marie_Curie",
+    src: "https://upload.wikimedia.org/wikipedia/commons/c/c8/Marie_Curie_c._1920s.jpg",
+    link: "https://en.wikipedia.org/wiki/Marie_Curie",
     subject: "Radioactivity",
   },
   {
     id: 3,
     name: "Nikola Tesla",
-    src: "https://upload.wikimedia.org/wikipedia/commons/7/77/Tesla_Sarony.jpg",
-    link: "https://fi.wikipedia.org/wiki/Nikola_Tesla",
+    src: "https://upload.wikimedia.org/wikipedia/commons/7/79/Tesla_circa_1890.jpeg",
+    link: "https://en.wikipedia.org/wiki/Nikola_Tesla",
     subject: "Radioactivity",
   },
   {
@@ -44,10 +44,10 @@ export const scientistsData = [
   },
   {
     id: 7,
-    name: "Charles Darwin",
-    src: "https://upload.wikimedia.org/wikipedia/commons/2/2e/Charles_Darwin_seated_crop.jpg",
-    link: "https://en.wikipedia.org/wiki/Charles_Darwin",
-    subject: "Natural history, geology",
+    name: "Louis Pasteur",
+    src: "https://upload.wikimedia.org/wikipedia/commons/2/27/Fran%C3%A7oise_Foliot_-_Mus%C3%A9e_Pasteur_-_Portrait_de_Jean-Joseph_Pasteur.jpg",
+    link: "https://en.wikipedia.org/wiki/Louis_Pasteur",
+    subject: "Biology, Microbiology, Chemistry, Mathematics, Physics",
   },
   {
     id: 8,
