@@ -10,7 +10,7 @@ const CardButton = () => {
 
   return (
     <div>
-      <Button variant="info" className="button" onClick={handleClick}>
+      <Button variant="dark" className="button" onClick={handleClick}>
         More
       </Button>
     </div>

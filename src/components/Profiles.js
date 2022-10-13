@@ -143,8 +143,8 @@ const Profiles = () => {
                         className='image'
                           alt={card.name}
                           src={card.src}
-                          width="250"
-                            // height="250"
+                          // width="200"
+                         
                         />
                         <h2
                         style={color}>{card.name}</h2>
@@ -158,9 +158,10 @@ const Profiles = () => {
                             Source: Wikipedia
                         </a>
                     </div>
-                    <button 
+                    {/* <button 
                     className="btn"
-                    style={color}>More</button>
+                    style={color}>More</button> */}
+                    <CardButton />
                   </div>
                 ))}
         </Slider>

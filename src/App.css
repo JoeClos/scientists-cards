@@ -79,3 +79,12 @@
       -khtml-box-shadow: 10px 10px 5px; */
 }
 
+/* Setting the img size for all carousel's photos */
+.slick-slide img{
+  height: 300px;
+}
+
+.slick-dots li.slick-active button:before{
+  color: black!important;
+  font-size: 1rem!important;
+}
