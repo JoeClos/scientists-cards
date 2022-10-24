@@ -3,6 +3,8 @@ import React from 'react';
 import MenuList from './MenuList'
 import {useState} from 'react'
 import { Wave } from "react-animated-text";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWikipediaW } from '@fortawesome/free-brands-svg-icons';
 
 const Navbar = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,10 +15,12 @@ const Navbar = (props) => {
   const size = {
     fontSize: "20rem"
   }
+  
   const title = "Amazing scientists"
   return (
     <nav>
       <h2 className='title'>Amazing scientists</h2>
+      <FontAwesomeIcon icon={ faWikipediaW} />
       {/* <Wave
               text={title}
               effect="stretch"

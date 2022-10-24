@@ -10,6 +10,7 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Button from "react-bootstrap/Button";
+import Navbar from "./Navbar";
 
 const center = {
   textAlign: "center",
@@ -81,6 +82,7 @@ const Profiles = () => {
 
   return (
     <div className="content">
+      <Navbar />
       <div className="controls">
         <Button
           onClick={() => gotoNext()}
@@ -98,7 +100,7 @@ const Profiles = () => {
           <FaChevronRight />
         </Button>
       </div>
-
+      
       <div className="p-6">
         <Slider ref={customeSlider} {...sliderSettings}>
           {data && data.map((card, index) => (
