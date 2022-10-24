@@ -1,7 +1,7 @@
 nav{
-    margin: 1rem 35rem;
+    margin: 1rem 2rem;
     padding: 0.8px;
-    background-color: #FEFEFF;
+    background-color: #BBBBBB;
     box-shadow: 5px 8px 8px 4px grey;
     border-radius: 5px;
     /* background-color:rgba(255,255,255,.4); */
@@ -11,3 +11,7 @@ nav{
 .title{
     text-align: center;
 }
+
+@media only screen and (max-width: 1025) {
+    
+  }

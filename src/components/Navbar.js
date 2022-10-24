@@ -23,8 +23,8 @@ const Navbar = (props) => {
               effectChange={3.0}
               style={size}
             /> */}
-      {/* <button onClick={handleClick}>See more</button>
-       {isOpen && <MenuList />} */}
+      <button onClick={handleClick}>See more</button>
+       {isOpen && <MenuList />}
     </nav>
   );
 };

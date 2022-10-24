@@ -101,41 +101,6 @@ const Profiles = () => {
 
       <div className="p-6">
         <Slider ref={customeSlider} {...sliderSettings}>
-          {/* Using bootstrap cards */}
-          {/* {data &&
-            data.map((profile, index) => (
-              <div key={profile.index} className="card">
-                <Card.Body>
-                  <Card.Img
-                    variant="top"
-                    src={profile.src}
-                    alt={profile.name}
-                  />
-                  <Card.Title style={center}>
-                    {profile.name.toUpperCase()}
-                  </Card.Title>
-                  <Card.Subtitle
-                  // style={center}
-                  >
-                    {profile.subject}
-                  </Card.Subtitle>
-                  <Card.Link
-                    href="https://fi.wikipedia.org/wiki/Albert_Einstein"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="link"
-                    // style={center}
-                  >
-                    Source: Wikipedia
-                  </Card.Link>
-                </Card.Body>
-
-                <div style={center}>
-                  <CardButton />
-                </div>
-              </div>
-            ))} */}
-
           {data && data.map((card, index) => (
                   <div>
                     <div key={index}>
@@ -148,7 +113,7 @@ const Profiles = () => {
                         />
                         <h2
                         style={color}>{card.name}</h2>
-                        <p
+                        {/* <p
                         style={color}>{card.subject}</p>
                         <a
                         href={card.link}
@@ -156,11 +121,8 @@ const Profiles = () => {
                         rel="noreferrer noopener"
                         style={color}>
                             Source: Wikipedia
-                        </a>
+                        </a> */}
                     </div>
-                    {/* <button 
-                    className="btn"
-                    style={color}>More</button> */}
                     <CardButton />
                   </div>
                 ))}
