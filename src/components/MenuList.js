@@ -11,7 +11,7 @@ const MenuList = () => {
         </Link>
       </li>
       <li>
-        <Link to={`/profiles`}>Scientists list</Link>
+        <Link to={`/profiles`}>Scientists' list</Link>
       </li>
     </ul>
   );

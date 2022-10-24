@@ -11,12 +11,14 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Button from "react-bootstrap/Button";
 import Navbar from "./Navbar";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWikipediaW } from "@fortawesome/free-brands-svg-icons";
 
 const center = {
   textAlign: "center",
 };
 
-const color = {color: "black", marginTop: "1rem"};
+const color = { color: "black", marginTop: "1rem" };
 const carouselButtonsStyle = {
   height: "50px",
   width: "50px",
@@ -100,34 +102,39 @@ const Profiles = () => {
           <FaChevronRight />
         </Button>
       </div>
-      
+
       <div className="p-6">
         <Slider ref={customeSlider} {...sliderSettings}>
-          {data && data.map((card, index) => (
-                  <div>
-                    <div key={index}>
-                        <img
-                        className='image'
-                          alt={card.name}
-                          src={card.src}
-                          // width="200"
-                         
-                        />
-                        <h2
-                        style={color}>{card.name}</h2>
-                        {/* <p
-                        style={color}>{card.subject}</p>
-                        <a
+          {data &&
+            data.map((card, index) => (
+              <div>
+                <div key={index}>
+                  <img
+                    className="image"
+                    alt={card.name}
+                    src={card.src}
+                    // width="200"
+                  />
+                  <h2 style={color}>{card.name}</h2>
+                  {/* <p style={color}>{card.subject}</p> */}
+                  {/* <p>
+                    Source:
+                    <span>
+                      <a
                         href={card.link}
                         target="_blank"
                         rel="noreferrer noopener"
-                        style={color}>
-                            Source: Wikipedia
-                        </a> */}
-                    </div>
-                    <CardButton />
-                  </div>
-                ))}
+                        style={color}
+                      >
+                        Wikipedia
+                     
+                      </a>
+                    </span>
+                  </p> */}
+                </div>
+                <CardButton />
+              </div>
+            ))}
         </Slider>
       </div>
     </div>
