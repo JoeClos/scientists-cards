@@ -15,7 +15,7 @@ export default function Gallery() {
         <Routes>
           <Route path="/" element={<FirstPage />} />
             <Route path="/profiles" element={<ProfilesList />}/>
-            <Route path="/profile/:id" element={<Profile />} />
+            <Route path="/profile/:profileId" element={<Profile />} />
           
         </Routes>
       </BrowserRouter>

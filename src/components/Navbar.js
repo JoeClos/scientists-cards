@@ -18,7 +18,7 @@ const Navbar = (props) => {
   return (
     <nav>
       <h2 className='title'>Amazing scientists</h2>
-      <button onClick={handleClick}>See more</button>
+      <button onClick={handleClick} className="navbar-button">See more</button>
        {isOpen && <MenuList/>}
     </nav>
   );
