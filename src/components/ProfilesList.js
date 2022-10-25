@@ -13,6 +13,8 @@ import Button from "react-bootstrap/Button";
 import Navbar from "./Navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWikipediaW } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
+import '../css/ProfilesList.css'
 
 const center = {
   textAlign: "center",
@@ -26,7 +28,7 @@ const carouselButtonsStyle = {
   backgroundColor: "#bbb",
 };
 
-const Profiles = () => {
+const ProfilesList = () => {
   const data = scientistsData;
 
   const [sliderRef, setSliderRef] = useState();
@@ -115,7 +117,7 @@ const Profiles = () => {
                     src={card.src}
                     // width="200"
                   />
-                  <h2 style={color}>{card.name}</h2>
+                  <h3 style={color}>{card.name}</h3>
                   {/* <p style={color}>{card.subject}</p> */}
                   {/* <p>
                     Source:
@@ -132,7 +134,9 @@ const Profiles = () => {
                     </span>
                   </p> */}
                 </div>
-                <CardButton />
+                <Link to={`/profile/${card.id}`} key="profile.id">
+                  <CardButton />
+                </Link>
               </div>
             ))}
         </Slider>
@@ -141,4 +145,4 @@ const Profiles = () => {
   );
 };
 
-export default Profiles;
+export default ProfilesList;
