@@ -28,7 +28,7 @@ const ProfilesList = () => {
 
   // const [sliderRef, setSliderRef] = useState();
   const customeSlider = React.createRef();
-  const [sliderSettings, setSliderSettings] = useState({
+  const [sliderSettings] = useState({
     dots: true,
     arrows: false,
     slidesToShow: 4,
