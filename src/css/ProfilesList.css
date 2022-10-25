@@ -3,3 +3,7 @@
 h3{
     font-family: 'Source Code Pro', monospace;
 }
+
+.slick-slide{
+    margin-left: 8px;
+}

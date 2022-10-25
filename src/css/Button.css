@@ -1,5 +1,7 @@
 .button{
-    margin: 1rem;
+    margin-top: 1rem;
+    margin-left: -1px;
+    margin-bottom: 2rem;
 }
 .button:hover{
     background-color: black;
