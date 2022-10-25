@@ -1,8 +1,8 @@
 nav{
     margin: 1rem 2rem;
     padding: 0.8px;
-    background-color: #BBBBBB;
-    box-shadow: 5px 8px 8px 4px grey;
+    background-color: #E0E0E5;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     border-radius: 1rem 1rem 1rem 0;
     /* background-color:rgba(255,255,255,.4); */
     /* opacity: 0.4; */
