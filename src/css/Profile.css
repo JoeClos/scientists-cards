@@ -13,6 +13,13 @@ h5{
     background-color: #E0E0E5;
 }
 
+.scientists-img{
+    border-radius: 1rem 1rem 1rem 0;
+}
+
+.image-sec p{
+    margin-top: 1rem;
+}
 .card-sections{
     padding: 2rem;
 }
@@ -21,6 +28,8 @@ h5{
 }
 
 .description{
+    margin: 1rem 0;
+
     font-weight: normal;
     text-align: justify;
 }

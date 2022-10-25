@@ -1,4 +1,4 @@
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
 import { useParams } from "react-router-dom";
 // import { useEffect, useState } from "react";
 import { scientistsData } from "./scientists";
@@ -16,18 +16,18 @@ const Profile = () => {
 
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="card">
         <div className="card-sections">
           {profile && (
             <div className="sections">
               <section className="image-sec">
-                <img src={profile.src} width="200" alt="joe" />
-                <p>Fields: {profile.subject}</p>
+                <img src={profile.src} width="200" alt="joe" className="scientists-img"/>
+                <p><b>Fields:</b> <i>{profile.subject}</i></p>
 
               </section>
               <section className="text">
-              <h5>{profile.name}</h5>
+              <h4 className="description">{profile.name}</h4>
 
                 <h4 className="description">{profile.description}</h4>
                 <p style={{ textAlign: "end", marginRight: "1rem" }}>
