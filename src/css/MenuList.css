@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+h2{
+    font-family: 'Source Code Pro', monospace;
+}
 ul{
     list-style-type: none;
     display: flex;
@@ -16,4 +20,5 @@ ul{
 
 .list-items:hover{
     color: #0A58CA;
+    font-size: 1.4rem;
 }

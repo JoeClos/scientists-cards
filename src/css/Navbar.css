@@ -10,8 +10,12 @@ nav{
 
 .title{
     text-align: center;
+    margin-top: 5px;
 }
 
+#navbar-button{
+    background-color: black;
+}
 @media only screen and (max-width: 1025) {
     
   }

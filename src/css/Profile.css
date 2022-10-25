@@ -2,11 +2,37 @@ body{
     margin: 1rem;
 }
 
+h5{
+   text-align: center;
+}
 .card{
     padding: 1.2rem;
     margin: 5rem;
     border-radius: 5rem 5rem 5rem 0;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     background-color: #E0E0E5;
+}
+
+.card-sections{
+    padding: 2rem;
+}
+.sections{
+    display: flex;
+}
+
+.description{
+    font-weight: normal;
+    text-align: justify;
+}
+.text{
+    padding: 3rem 5rem;
+}
+
+.links{
     text-align: center;
+}
+
+.icon{
+    padding: 1rem;
+    font-size: 1.2rem;
 }

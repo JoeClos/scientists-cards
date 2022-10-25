@@ -113,21 +113,7 @@ const ProfilesList = () => {
                     // width="200"
                   />
                   <h3 style={color}>{card.name}</h3>
-                  {/* <p style={color}>{card.subject}</p> */}
-                  {/* <p>
-                    Source:
-                    <span>
-                      <a
-                        href={card.link}
-                        target="_blank"
-                        rel="noreferrer noopener"
-                        style={color}
-                      >
-                        Wikipedia
-                     
-                      </a>
-                    </span>
-                  </p> */}
+
                 </div>
                 <Link to={`/profile/${card.id}`} key="profile.id">
                   <CardButton />
