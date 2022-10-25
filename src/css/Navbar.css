@@ -3,7 +3,7 @@ nav{
     padding: 0.8px;
     background-color: #BBBBBB;
     box-shadow: 5px 8px 8px 4px grey;
-    border-radius: 5px;
+    border-radius: 1rem 1rem 1rem 0;
     /* background-color:rgba(255,255,255,.4); */
     /* opacity: 0.4; */
 }
