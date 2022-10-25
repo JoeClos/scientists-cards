@@ -13,7 +13,7 @@ const Navbar = (props) => {
   
   const style = {
     marginLeft: "2rem",
-    marginBottom: "1rem"
+    marginBottom: "1rem",
   }
   
   
@@ -21,7 +21,7 @@ const Navbar = (props) => {
     <nav>
       <h2 className='title'>Amazing scientists</h2>
       
-      <Button variant="dark" onClick={handleClick} style={style}>See more</Button>
+      <Button variant="outline-dark" size="lg" onClick={handleClick} style={style}>See more</Button>
        {isOpen && <MenuList/>}
     </nav>
   );
