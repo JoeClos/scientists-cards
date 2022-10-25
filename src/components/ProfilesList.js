@@ -1,6 +1,3 @@
-import { Container } from "react-bootstrap";
-import Card from "react-bootstrap/Card";
-// import Button from "react-bootstrap/Button";
 import CardButton from "./Button";
 import { scientistsData } from "./scientists.js";
 import React from "react";
@@ -11,14 +8,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Button from "react-bootstrap/Button";
 import Navbar from "./Navbar";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faWikipediaW } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
 import '../css/ProfilesList.css'
 
-const center = {
-  textAlign: "center",
-};
+// const center = {
+//   textAlign: "center",
+// };
 
 const color = { color: "black", marginTop: "1rem" };
 const carouselButtonsStyle = {
@@ -31,7 +26,7 @@ const carouselButtonsStyle = {
 const ProfilesList = () => {
   const data = scientistsData;
 
-  const [sliderRef, setSliderRef] = useState();
+  // const [sliderRef, setSliderRef] = useState();
   const customeSlider = React.createRef();
   const [sliderSettings, setSliderSettings] = useState({
     dots: true,

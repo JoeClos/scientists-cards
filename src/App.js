@@ -1,7 +1,5 @@
 import "./App.css";
-import Profiles from "./components/ProfilesList";
-import Navbar from "./components/Navbar";
-import {React, useState} from 'react';
+import {React} from 'react';
 // import Modal from "./components/Modal";
 import FirstPage from "./components/FirstPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";

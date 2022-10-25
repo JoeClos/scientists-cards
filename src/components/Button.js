@@ -1,10 +1,10 @@
 import { Button} from "react-bootstrap";
 import "../css/Button.css";
-import{ React, useState} from "react";
+import{ React} from "react";
 // import Modal from "./Modal";
 
 const CardButton = () => {
-  const [modalOpen, setModalOpen] = useState(false);
+  // const [modalOpen, setModalOpen] = useState(false);
   // function handleClick() {
   //   console.log("Button was clicked");
   //   alert("Cu-cu");

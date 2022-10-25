@@ -10,11 +10,11 @@ const Navbar = (props) => {
     setIsOpen(!isOpen);
   }
   
-  const size = {
-    fontSize: "20rem"
-  }
+  // const size = {
+  //   fontSize: "20rem"
+  // }
   
-  const title = "Amazing scientists"
+  // const title = "Amazing scientists"
   return (
     <nav>
       <h2 className='title'>Amazing scientists</h2>

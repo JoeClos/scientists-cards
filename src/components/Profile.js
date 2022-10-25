@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import { useParams } from "react-router-dom";
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import { scientistsData } from "./scientists";
 import '../css/Profile.css'
 
@@ -17,7 +17,7 @@ const Profile = () => {
               
                     {profile &&
                     <div>
-                        <img src={profile.src} width="200"/>
+                        <img src={profile.src} width="200" alt="joe"/>
                         <h3>{profile.name}</h3>
                         <h4>{profile.description}</h4>
                         <p>Fields: {profile.subject}</p>
