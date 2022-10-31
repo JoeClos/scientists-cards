@@ -7,3 +7,9 @@
 - React-animated-text;
 - Slick-carousel;
 - React-router-dom.
+
+<h1 align="center">
+See the scientists carousel below:
+ <img src="https://user-images.githubusercontent.com/89244648/198970732-f18f6d9d-0534-4aee-a7b6-0d6957e97a79.PNG">
+
+</h1>
