@@ -1,7 +1,6 @@
 import '../css/Navbar.css'
-import React from 'react';
+import React, { useState } from 'react';
 import MenuList from './MenuList'
-import {useState} from 'react'
 import { Button} from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLightbulb } from '@fortawesome/free-solid-svg-icons';

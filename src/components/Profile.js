@@ -1,12 +1,8 @@
-// import Navbar from "./Navbar";
-import { useParams } from "react-router-dom";
-// import { useEffect, useState } from "react";
+import { useParams, Link } from "react-router-dom";
 import { scientistsData } from "./scientists";
 import "../css/Profile.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome } from "@fortawesome/free-solid-svg-icons";
-import { faListCheck } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
+import { faHome, faListCheck } from "@fortawesome/free-solid-svg-icons";
 
 const Profile = () => {
   const { profileId } = useParams();
@@ -16,7 +12,6 @@ const Profile = () => {
 
   return (
     <div>
-      {/* <Navbar /> */}
       <div className="card">
         <div className="card-sections">
           {profile && (
